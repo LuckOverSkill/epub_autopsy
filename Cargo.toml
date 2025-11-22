@@ -1,0 +1,12 @@
+[package]
+name = "epub_autopsy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+zip = "0.6"
+roxmltree = "0.19"
+anyhow = "1.0"
+sanitize-filename = "0.5"
+html2text = "0.6"
+dirs = "5.0"
