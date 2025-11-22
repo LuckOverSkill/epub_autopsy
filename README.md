@@ -1,4 +1,4 @@
-Rust command line tool vibe """coded""" in Rust to prepare EPUB files to import into interactive AI tools. 
+Rust command line tool vibe """coded""" in Rust to prepare EPUB files to import into interactive AI tools; say, NotebookLM or ChatGPT or whatever else you use. 
 
 It takes an `.epub` file for input, splits it into plain text chapters based on the book's internal structure, while filtering out chapters shorter than 200 characters (think big header pages that only have the chapter's title).
 
